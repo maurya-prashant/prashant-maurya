@@ -43,5 +43,3 @@ Run `python -m http.server 8000` in the project directory and visit `http://loca
 - GitHub: https://github.com/maurya-prashant
 - LinkedIn: https://www.linkedin.com/in/prashant-maurya-986645331/
 - Email: mauryaprashant1111@gmail.com
-- Phone: +91 80579 71683</content>
-<parameter name="filePath">d:\real_java_projects\portfolio\README.md
