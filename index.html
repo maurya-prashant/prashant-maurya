@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Prashant Maurya - Backend & AI Developer specializing in Java Spring Boot, AI integration, and production-ready applications. Available for freelance work on Fiverr.">
+<meta name="keywords" content="Java Developer, Spring Boot, AI Integration, Backend Developer, Freelance, Fiverr">
+<meta name="author" content="Prashant Maurya">
+<title>Prashant Maurya — Backend & AI Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Prashant Maurya</a>
+  <div class="nav-links">
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Backend &<br><em>AI Integration</em><br>Developer</h1>
+    <p class="hero-sub">Building production-ready Java Spring Boot systems with real AI integration — semantic search, NLP pipelines, and microservices that actually ship.</p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="https://www.fiverr.com/pramaurya1" target="_blank" class="btn-secondary">Hire on Fiverr</a>
+    </div>
+  </div>
+  <div class="hero-line">
+    <div class="hero-stat">
+      <div class="num">85%</div>
+      <div class="label">Match accuracy</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="hero-stat">
+      <div class="num">2</div>
+      <div class="label">Live projects</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="hero-stat">
+      <div class="num">Java<br>+&nbsp;AI</div>
+      <div class="label">Core stack</div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="section-label">Technical skills</div>
+  <div class="skills-grid reveal">
+    <div class="skill-group">
+      <h3>Languages</h3>
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+      </ul>
+    </div>
+    <div class="skill-group">
+      <h3>Backend</h3>
+      <ul>
+        <li>Spring Boot</li>
+        <li>REST API Design</li>
+        <li>JWT & Spring Security</li>
+        <li>Hibernate / JPA</li>
+        <li>Async Processing</li>
+      </ul>
+    </div>
+    <div class="skill-group">
+      <h3>AI / ML</h3>
+      <ul>
+        <li>Sentence Transformers</li>
+        <li>Semantic Search</li>
+        <li>NLP & Hybrid Scoring</li>
+        <li>LangChain (in progress)</li>
+        <li>RAG Pipelines (in progress)</li>
+      </ul>
+    </div>
+    <div class="skill-group">
+      <h3>Databases & Tools</h3>
+      <ul>
+        <li>MySQL · PostgreSQL</li>
+        <li>Git & GitHub</li>
+        <li>Postman · Maven</li>
+        <li>Vercel deployment</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="padding: 6rem 0; scroll-margin-top: 70px;">
+  <div style="padding: 0 4rem 3rem;">
+    <div class="section-label reveal">Selected projects</div>
+  </div>
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card reveal">
+      <div class="project-num">01</div>
+      <h3>BloodConnect</h3>
+      <p>Full-stack blood donation platform deployed live on Vercel. Real-time GPS donor matching, blood type compatibility engine, and async email notifications.</p>
+      <div class="project-tags">
+        <span class="tag">Spring Boot</span>
+        <span class="tag">React</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">JWT</span>
+        <span class="tag">Haversine GPS</span>
+        <span class="tag">Gmail SMTP</span>
+      </div>
+      <ul class="project-highlights">
+        <li>Haversine formula for real-time GPS donor-hospital distance (1–20 km radius)</li>
+        <li>Blood type compatibility engine covering all 8 types + 56-day re-eligibility</li>
+        <li>Async email pipeline via @Async + ThreadPoolExecutor — alerts in under 10s</li>
+        <li>Role-based access control (HOSPITAL / DONOR) with separate protected routes</li>
+      </ul>
+      <a href="https://bloodconnect-app-eight.vercel.app/" target="_blank" class="project-link">
+        View live <span class="project-arrow">↗</span>
+      </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <h3>Lost & Found<br>AI System</h3>
+      <p>Dual-service microservices architecture: Spring Boot for business logic + Python Flask AI microservice connected over REST. Achieves 85%+ semantic match accuracy.</p>
+      <div class="project-tags">
+        <span class="tag">Spring Boot</span>
+        <span class="tag">Python Flask</span>
+        <span class="tag">Sentence Transformers</span>
+        <span class="tag">Hugging Face</span>
+        <span class="tag">MySQL</span>
+      </div>
+      <ul class="project-highlights">
+        <li>all-MiniLM-L6-v2 encodes descriptions into 384-dim semantic vectors</li>
+        <li>Hybrid scoring: semantic (×0.7) + category match (+0.20) + fuzzy location (+0.10)</li>
+        <li>Auto startup sync via ApplicationReadyEvent — zero data inconsistency</li>
+        <li>JWT stateless auth + BCrypt + Spring Security on all routes</li>
+      </ul>
+      <a href="https://github.com/maurya-prashant" target="_blank" class="project-link">
+        View on GitHub <span class="project-arrow">↗</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-label reveal">Get in touch</div>
+  <div class="contact-inner">
+    <div class="contact-left reveal">
+      <h2>Let's build<br>something <em>real.</em></h2>
+      <p>Available for freelance projects on Fiverr — REST APIs, AI-powered backends, microservices, and full-stack systems. Honest timelines. Clean code. Clear communication.</p>
+    </div>
+    <div class="contact-links reveal">
+      <a href="https://www.fiverr.com/pramaurya1" target="_blank" class="contact-link">
+        <span class="cl-dot"></span> Hire me on Fiverr
+      </a>
+      <a href="https://github.com/maurya-prashant" target="_blank" class="contact-link">
+        <span class="cl-dot"></span> github.com/maurya-prashant
+      </a>
+      <a href="https://www.linkedin.com/in/prashant-maurya-986645331/" target="_blank" class="contact-link">
+        <span class="cl-dot"></span> LinkedIn
+      </a>
+      <a href="mailto:mauryaprashant1111@gmail.com" target="_blank" class="contact-link">
+        <span class="cl-dot"></span> mauryaprashant1111@gmail.com
+      </a>
+      <a href="tel:+918057971683" class="contact-link">
+        <span class="cl-dot"></span> +91 80579 71683
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Prashant Maurya</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
