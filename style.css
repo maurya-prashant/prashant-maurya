@@ -43,6 +43,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .logo-svg {
+    flex-shrink: 0;
   }
   .nav-links { display: flex; gap: 2.5rem; }
   .nav-links a {
@@ -504,6 +510,7 @@
   @media (max-width: 600px) {
     nav { padding: 1rem 1rem; }
     .nav-logo { font-size: 1rem; }
+    .logo-svg { width: 30px; height: 30px; }
     .nav-links { display: none; }
     .hero { padding: 5rem 1rem 2rem; min-height: auto; }
     .hero h1 { font-size: 2.5rem; line-height: 1.1; }
