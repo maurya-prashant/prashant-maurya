@@ -7,7 +7,7 @@ A modern, responsive portfolio website for Prashant Maurya, a Backend & AI Devel
 - Fully responsive across all devices
 - Smooth animations and interactions
 - Skills, projects, and contact sections
-- Direct links to Fiverr, GitHub, LinkedIn
+- Direct links to GitHub, LinkedIn, and email
 
 ## Technologies
 - HTML5
@@ -39,7 +39,6 @@ Upload the files (`index.html`, `style.css`, `script.js`) to any static hosting 
 Run `python -m http.server 8000` in the project directory and visit `http://localhost:8000`.
 
 ## Contact
-- Fiverr: https://www.fiverr.com/pramaurya1
 - GitHub: https://github.com/maurya-prashant
 - LinkedIn: https://www.linkedin.com/in/prashant-maurya-986645331/
 - Email: mauryaprashant1111@gmail.com
